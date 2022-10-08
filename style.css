@@ -35,6 +35,7 @@
 }
 .bottom_image{
     position: absolute;
+    z-index: 5;
     width: 232px;
     height: 203px;
     left: 124px;
@@ -131,7 +132,6 @@
     height: 32px;
     left: 157px;
     top: 857px;
-    background: #EFEFEF;
     background: url("img/Ellipse1.png");
 }
 .big_image{
@@ -141,6 +141,7 @@
     left: 976px;
     top: 226px;
     background: url("img/photo2.png");
+    z-index: 5;
 }
 .Ellips_2{
     position: absolute;
@@ -148,7 +149,6 @@
     height: 59px;
     left: 950px;
     top: 511px;
-    background: #EFEFEF;
     background: url("img/Ellipse2.png");
 }
 
